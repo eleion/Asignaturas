@@ -1,7 +1,9 @@
 # Inteligencia Computacional
 Aquí están mis ejercicios sobre Inteligencia Computacional de **Redes Neuronales**. *Debería funcionar el script simplemente teniendo en el mismo directorio el 'abalone.pat' y la red con el nombre 'red_abalone.net'*.
 
-En mi programa no lo tiene en cuenta. Y están todas las cosas comentadas.
+En el programa están todas las cosas comentadas.
+
+Probado en **Ubuntu.**
 
 # Nota importante
 * A la hora de implementar la red **sin normalizar**, en la capa de salida **NO** hay que utilizar la función sigmoida.
