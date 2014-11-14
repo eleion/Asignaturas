@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:f="http://java.sun.com/jsf/core">
+   <h:head>
+      <title>Práctica 1</title>		   
+   </h:head>
+   <h:body> 
+   
+		<!-- Ponemos todo la interfaz alineada el medio. -->
+	   <h:form style="text-align:center">
+			<!-- Mensaje de salida, en la parte superior de la interfaz -->
+		    <h2 align="center"><h:outputText id="mensajeSalida" value="#{cambiaColor.mensaje}" style="color:#{cambiaColor.color}" /></h2>
+			<hr />
+			
+			<!-- Botones --> 
+			<!-- Este primer botón cambia de color y el texto que tiene en su etiqueta. -->
+		    <h:commandButton id="boton" value="#{cambiaColor.nombre1}" action="#{cambiaColor.pulsarBoton}" style="color:#{cambiaColor.color}">
+				
+		    </h:commandButton>
+			
+			<!-- Con esto separamos los dos botones. -->
+			&nbsp;
+			
+			<!-- Este botón no hace nada. -->
+		    <h:commandButton id="boton2" value="#{cambiaColor.nombre2}" >
+		    </h:commandButton>
+		   
+		</h:form>
+   </h:body>
+</html>
