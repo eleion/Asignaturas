@@ -1,4 +1,4 @@
 Asignaturas
 ===========
 
-Asignaturas del máster profesional de informática, algunas cosas. [p](prueba.md)
+Asignaturas del máster profesional de informática, algunas cosas.
