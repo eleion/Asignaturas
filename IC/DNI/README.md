@@ -3,7 +3,7 @@ Para la práctica DNI. Sólo hay que cambiar los vectores de *bías* y *coeficie
 
 En el programa están todas las cosas comentadas.
 
-Probado en **Ubuntu.**
+Probado en **Ubuntu** con **Python3**. Sale la entrada y salida de datos con color. (En Windows no).
 
 # Nota importante
 * A la hora de implementar la red **sin normalizar**, en la capa de salida **NO** hay que utilizar la función sigmoida.
