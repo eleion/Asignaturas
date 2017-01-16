@@ -1245,6 +1245,7 @@ ArbolGeneral<Tbase>::operator = (const ArbolGeneral<Tbase> &v){
         destruir(laraiz);                           //Borramos y copiamos.
         copiar(laraiz, v.laraiz);
     }
+   return *this;
 }
     
 template <class Tbase>
